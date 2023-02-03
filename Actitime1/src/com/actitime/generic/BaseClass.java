@@ -42,6 +42,7 @@ static {
 		driver.get(url);
 		LoginPage l=new LoginPage(driver);
 		l.setLogin(un, pw);
+		System.out.println("HII");
 	}
 	@AfterMethod
 	public void logOut() {
